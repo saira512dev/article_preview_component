@@ -1,0 +1,23 @@
+@import 'settings';
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:$very-light-gray;
+}
+
+main{
+    width:280px;
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    background:$very-light-gray;
+
+    
+}
