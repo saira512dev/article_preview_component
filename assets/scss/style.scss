@@ -31,7 +31,6 @@ main{
 
 
     section{
-        //padding:30px 18px 0px 25px;
         padding-top: 30px;
 
         h1{
@@ -58,7 +57,7 @@ main{
 
             
             .overlay{
-                --if-big-screen :false;
+               // --if-big-screen :false;
                 display:flex;
                 justify-content:space-between;
                 align-items:center;
@@ -67,7 +66,7 @@ main{
                 height:60px;
                 background:$very-dark-grayish-blue;
                 border-radius: 0 0 10px 10px;
-                //display:none;
+            
 
                 .share-text{
                     color:$grayish-blue;
@@ -109,7 +108,7 @@ main{
 
             }
             .visible{
-                --if-big-screen :false;
+               // --if-big-screen :false;
                 display:flex;
                 justify-content: space-between;
                 align-items: center;
@@ -188,7 +187,7 @@ main{
             footer{
         
                 .overlay{
-                    --if-big-screen :true;
+                   // --if-big-screen :true;
                     
                     justify-content:space-between;
                     position:absolute;
@@ -231,7 +230,7 @@ main{
         
                 }
                 .visible{
-                    --if-big-screen :true;
+                   // --if-big-screen :true;
                     padding-left: 18px;
                     padding-right: 25px;
         

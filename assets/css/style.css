@@ -48,7 +48,6 @@ main {
     main section footer {
       margin-top: 30px; }
       main section footer .overlay {
-        --if-big-screen:false;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -82,7 +81,6 @@ main {
             main section footer .overlay .share-icon svg path {
               fill: white; }
       main section footer .visible {
-        --if-big-screen:false;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -132,7 +130,6 @@ main {
       padding-left: 20px;
       padding-right: 19px; }
     main section footer .overlay {
-      --if-big-screen:true;
       justify-content: space-between;
       position: absolute;
       left: 50%;
@@ -163,7 +160,6 @@ main {
         transform: translateX(-50%);
         background-color: #48556a; }
     main section footer .visible {
-      --if-big-screen:true;
       padding-left: 18px;
       padding-right: 25px; }
       main section footer .visible .user-details {
